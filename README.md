@@ -15,10 +15,16 @@ This project explores the potential of the **Joint Embedding Predictive Architec
 - Clustering to uncover inherent patterns in representations.
 
 ## Project Structure
-JEPA-SSL-Project/ ├── main.py # Orchestrates the workflow (training, testing, visualization) ├── preprocess.py # Handles data preprocessing and augmentation ├── patcher.py # Extracts and patches image embeddings ├── predictor.py # Generates predictions and visualizes representations ├── data/ # Contains the dataset (dogs, cats, tigers, and foxes) ├── models/ # Trained JEPA models ├── results/ # Clustering results and visualizations ├── README.md # Project documentation
+JEPA/
+├── main.py 
+├── preprocess.py # Handles resizing, normaliztion
+├── patcher.py # Extracts patches, randomly assigns target and context patches, adds positional embeddings 
+├── encoder.py # loads pre-trained ViT
+├── predictor.py # using MLP with one RELU layer to train context using target patches 
+
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/JEPA-SSL-Project.git
-   cd JEPA-SSL-Project
+   git clone https://github.com/ManushKalwari/JEPA-Project.git
+   cd JEPA-Project
