@@ -1,6 +1,7 @@
 # Self-Supervised Learning with Joint Embedding Predictive Architecture (JEPA)
 
-## Overview
+## Overview - Learning by Observation: From Cats & Dogs to Tigers & Foxes
+
 This project explores the potential of the **Joint Embedding Predictive Architecture (JEPA)** for learning high-level representations through **self-supervised learning (SSL)**. Inspired by human cognitive abilities to generalize through observation, JEPA learns latent representations of data.
 
 ### Key Objectives
