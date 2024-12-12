@@ -11,12 +11,6 @@ This project explores the potential of the **Joint Embedding Predictive Architec
 2. Test the learned representations on **images of tigers and foxes**.
 3. Analyze the generalization ability through **clustering and visualization** of the learned representations.
 
-## Features
-- Preprocessing pipeline for handling and augmenting image data.
-- Training and testing of a JEPA-based SSL model.
-- Visualization of learned latent space representations.
-- Clustering to uncover inherent patterns in representations.
-
 ## Project Structure
 JEPA/  
 ├── main.py  
