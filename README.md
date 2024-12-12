@@ -18,7 +18,7 @@ This project explores the potential of the **Joint Embedding Predictive Architec
 - Clustering to uncover inherent patterns in representations.
 
 ## Project Structure
-JEPA/
+JEPA/  
 ├── main.py  
 ├── preprocess.py # Handles resizing, normaliztion  
 ├── patcher.py # Extracts patches, randomly assigns target and context patches, adds positional embeddings  
