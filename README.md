@@ -23,8 +23,9 @@ JEPA/
 ├── predictor.py # using MLP with one RELU layer to train context using target patches 
 
 
+
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/ManushKalwari/JEPA-Project.git
-   cd JEPA-Project
+  
