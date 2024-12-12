@@ -19,7 +19,7 @@ This project explores the potential of the **Joint Embedding Predictive Architec
 
 ## Project Structure
 JEPA/
-├── main.py 
+├── main.py ```
 ├── preprocess.py # Handles resizing, normaliztion
 ├── patcher.py # Extracts patches, randomly assigns target and context patches, adds positional embeddings 
 ├── encoder.py # loads pre-trained ViT
