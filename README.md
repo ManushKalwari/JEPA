@@ -1,6 +1,6 @@
 # Self-Supervised Learning with Joint Embedding Predictive Architecture (JEPA)
 
-##Learning by Observation: From Cats & Dogs to Tigers & Foxes
+## Learning by Observation: From Cats & Dogs to Tigers & Foxes
 
 ## Overview
 
